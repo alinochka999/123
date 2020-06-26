@@ -10,7 +10,7 @@ steps:
    args:
    - 'run'
    - 'deploy'
-   - 'hello'
+   - 'eczamen'
    - '--image'
    - 'gcr.io/$PROJECT_ID/eczamen:$COMMIT_SHA'
    - '--region'
