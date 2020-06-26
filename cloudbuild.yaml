@@ -13,6 +13,7 @@ steps:
    - 'hello'
    - '--image'
    - 'gcr.io/$PROJECT_ID/eczamenna5:$COMMIT_SHA'
+   - '--region'
    - '--platform'
    - 'managed'
 images:
