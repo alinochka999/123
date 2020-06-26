@@ -15,5 +15,5 @@ steps:
    - 'gcr.io/$PROJECT_ID/eczamenna5:$COMMIT_SHA'
    - '--platform'
    - 'managed'
- images:
+images:
  - 'gcr.io/$PROJECT_ID/eczamenna5:$COMMIT_SHA'
